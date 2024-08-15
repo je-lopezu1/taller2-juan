@@ -7,9 +7,11 @@ def grafica():
     y = np.sin(x)
     z = np.cos(x)
     k = np.tan(x)
+    q = np.arctan(x)
     plt.plot(x, y, label='sin(x)')
     plt.plot(x, z, label='cos(x)')
     plt.plot(x, k, label='tan(x)')
+    plt.plot(x, q, label='arctan(x)')
     plt.show()
 
 grafica()
