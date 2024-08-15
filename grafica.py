@@ -12,6 +12,9 @@ def grafica():
     plt.plot(x, z, label='cos(x)')
     plt.plot(x, k, label='tan(x)')
     plt.plot(x, q, label='arctan(x)')
+    plt.title('Funciones trigonometricas')
+    plt.legend()
     plt.show()
 
 grafica()
+
